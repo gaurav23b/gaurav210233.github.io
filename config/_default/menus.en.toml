@@ -16,8 +16,8 @@
   weight = 10
 
 [[main]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Projects"
+  pageRef = "projects"
   weight = 20
 
 [[main]]
@@ -27,15 +27,30 @@
 
 [[main]]
   identifier = "search"
-  weight = 99
+  weight = 40
   [main.params]
     action = "search"
 
 [[main]]
-  identifier = "locale"
-  weight = 100
+  identifier = "appearance"
+  weight = 50
   [main.params]
-    action = "locale"
+    action = "appearance"
+
+# [[main]]
+#   name = "GitHub"
+#   url = "https://github.com/gaurav210233"
+#   weight = 60
+#   [main.params]
+#     icon = "github"
+#     showName = false
+#     target = "_blank"
+
+# [[main]]
+#   identifier = "locale"
+#   weight = 100
+#   [main.params]
+#     action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
