@@ -23,6 +23,9 @@ jobs:
           hugo-version: "latest"
           extended: true
 
+      - name: Copy CNAME file
+        run : cp CNAME ./public/
+
       - name: Build
         run: hugo --minify
 
