@@ -22,6 +22,9 @@ jobs:
         with:
           hugo-version: "latest"
           extended: true
+      
+      - name: List files in public folder (for debugging)
+        run:  ls -l && ls -l ./public/ 
 
       - name: Copy CNAME file
         run : cp CNAME ./public
