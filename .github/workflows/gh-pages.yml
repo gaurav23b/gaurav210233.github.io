@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: Copy CNAME file
-        run : cp CNAME ./public/
+        run : cp CNAME ./public
 
       - name: Build
         run: hugo --minify
